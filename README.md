@@ -96,7 +96,7 @@
 
 <!--девочка с учебником-->
 
-<a href="https://sun9-51.userapi.com/c857732/v857732825/ea622/XnRmuU-MSRM.jpg"><img src="https://sun9-51.userapi.com/c857732/v857732825/ea622/XnRmuU-MSRM.jpg" style="width: 333px; height: 187px; margin-top: 40px; position:absolute;left:100px;right:0px"></a>
+<a href="https://sun9-51.userapi.com57732/v857732825/ea622/XnRmuU-MSRM.jpg"><img src="https://sun9-51.userapi.com/c857732/v857732825/ea622/XnRmuU-MSRM.jpg" style="width: 333px; height: 187px; margin-top: 40px; position:absolute;left:100px;right:0px"></a>
 
 <!--битлз-->
 
@@ -104,4 +104,4 @@
 
     
 
-</center>
+
