@@ -115,7 +115,7 @@ iframe#tumblr_controls, .iframe-controls--desktop {
 body {
     background-color:var(--Background);
     /* background image */
-
+   /* background:url(); */
     background-attachment:fixed;
     background-repeat:repeat;
     line-height:1.6em;
@@ -200,7 +200,16 @@ pre, code {
     /* other */
     --Music-Player:#C6CFD5;
     --Credit-Text:#C6CFD5; /* please don't be an asshole! */
+ 
+     /* ongoing prj */
+    --Ong-Prj-Background:#000;
+    --Ong-Prj-Border:#6a757b;
+    --Ong-Text:#C6CFD5;
+    --Ong-Text-Shadow:#3f4649;
+    --Ong-Arrow:#C6CFD5;
+   
 }
+ 
  
 /*--------------------CONTAINER--------------------*/
 #cont {
@@ -622,6 +631,43 @@ pre, code {
     text-transform:uppercase;
     letter-spacing:0.3px;
     color:var(--Short-Info-Bold);
+}
+ 
+ /*--------------------ONGOING PRJ--------------------*/
+.quote-sect {
+    margin-top:-600px;
+}
+ 
+.l-q-b, .l-q-c, .ql-main {
+    background:var(--Ong-Prj-Background);
+}
+ 
+.l-q-a {background:var(--Ong-Prj-Border);}
+ 
+.l-q-b, .l-q-c, .ql-main {
+    border-left:2px solid var(--Ong-Prj-Border);
+    border-right:2px solid var(--Ong-Prj-Border);
+}
+ 
+.ql-main {
+    padding:8px 16px;
+    display:flex;
+}
+ 
+.ongoing {
+    width:calc(100% - 28px);
+    font-family:silkscreen;
+    font-size:9px;
+    color:var(--Quote-Text);
+    text-shadow:2px 2px var(--Ong-Text--Shadow);
+}
+ 
+.ongoing-arrow {
+    align-self:flex-end;
+    -webkit-align-self:flex-end;
+    margin-left:16px;
+    font-size:13px;
+    color:var(--Ong-Arrow);
 }
  
 /*--------------------QUOTE--------------------*/
