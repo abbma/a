@@ -19,7 +19,18 @@ a {
 details summary::-webkit-details-marker {
 display: none;
 }
-
+details :focus {
+  outline: 0;
+}
+details, summary {
+display: block;
+}
+details summary:before {
+content: "▲ ";
+}
+details[open] summary:before {
+content: "▼ ";
+}
  .lower {
     font: "Nunito", sans-serif;
     letter-spacing: 2px;
